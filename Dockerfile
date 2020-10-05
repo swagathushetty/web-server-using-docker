@@ -4,7 +4,7 @@ FROM node:alpine
 WORKDIR /usr/app
 
 #dependencies
-COPY ./package.json ./
+COPY ./ ./
 RUN npm install
 
 
